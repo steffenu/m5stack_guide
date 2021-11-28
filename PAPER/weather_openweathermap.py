@@ -43,7 +43,7 @@ def do_connect():
 
 def make_request():
     import urequests as requests
-    r = requests.get("https://api.openweathermap.org/data/2.5/weather?q=Rostock&units=metric&APPID=c1748c3805b0b163e4b0e076934e505b")
+    r = requests.get("https://api.openweathermap.org/data/2.5/weather?q=Rostock&units=metric&APPID=YOUR_API_KEY")
     data = r.json()
     return data
 
