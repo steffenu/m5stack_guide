@@ -10,7 +10,7 @@ of m5stack devices
 - E-Ink & Paper
 - M5Stamp & M5stamp C
 
-## Example Code
+## Example Functions
 - connect wifi
 - http request
 - tcp & udp servers
